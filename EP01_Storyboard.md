@@ -196,8 +196,8 @@ Beat 10 — 离婚炸弹 & Violet的不屈（A型）
 | Shot | 景别 | 运镜 | 镜头描述 | 角色动作 | 台词/V.O./SFX | VFX/SFX | Seedance 2.0 提示词 | 备注 |
 |------|------|------|---------|---------|------------|---------|-------------------|------|
 | 23 | ECU | 静止 | Nicholas的手——突然收紧。手指扣进扶手金属表面，力道大到金属被攥出变形弧度 | 手指猛然攥紧扶手，金属变形 | SFX: 金属变形的吱嘎声 | VFX: 扶手金属表面出现变形凹痕 | Extreme close-up of a man's hand suddenly clenching on a dark metal armrest with tremendous force, fingers digging into metal surface causing visible deformation and denting, knuckles white with tension, sharp metallic creaking sound, dramatic side lighting highlighting the strain, supernatural strength moment, dark cinematic | ⭐ **KF5 — "fated mate"第一次发作的物理证据。** 金属变形=他的控制在那一秒裂开了。这个ECU必须让观众倒吸一口气 |
-| 24 | ECU | 静止 | Nicholas的眼睛特写。原本深棕近黑的瞳孔——边缘开始渗出猩红色，像墨水在水中晕开 | 瞳孔边缘猩红渗出 | 无 | VFX P0: 虹膜边缘猩红色渐变渗出，如墨水晕染 | Extreme close-up of a man's dark near-black eye, the iris edge beginning to bleed crimson red spreading inward like ink dissolving in water, sharp brow bone shadow above, expression of controlled alarm beneath surface stillness, dramatic side lighting catching the supernatural color change, werewolf awakening moment, dark supernatural cinematic | ⭐ **KF6 — 全集最重要的VFX瞬间。** 猩红渗出必须缓慢、不匀、有液体流动感——不是LED灯切换，是活物在觉醒 |
-| 25 | WS | 静止/快闪 | 彩色玻璃窗上，一道巨大的狼影掠过——嚎叫姿态，爪子撕裂光影——然后消失 | 无人物动作 | SFX: 极低频的狼嚎（亚声波感） | VFX P0: 彩色玻璃窗面巨大狼影快速掠过 | Wide shot of tall stained glass windows in a grand hall, a massive wolf shadow sweeping across the colorful glass surface in a howling pose with claws tearing through light patterns, appearing and vanishing in an instant, multicolored light fragments scattering, supernatural presence flash, dark atmospheric cinematic | 狼影快闪=Ares（内在狼）被唤醒的外在投射。要快——一闪即逝才有冲击力 |
+| 24 | ECU | 静止 | Nicholas的眼睛特写。原本深棕近黑的瞳孔——边缘开始渗出猩红色，像墨水在水中晕开 | 瞳孔边缘猩红渗出 | 无 | VFX [P0]: 虹膜边缘猩红色渐变渗出，如墨水晕染 | Extreme close-up of a man's dark near-black eye, the iris edge beginning to bleed crimson red spreading inward like ink dissolving in water, sharp brow bone shadow above, expression of controlled alarm beneath surface stillness, dramatic side lighting catching the supernatural color change, werewolf awakening moment, dark supernatural cinematic | ⭐ **KF6 — 全集最重要的VFX瞬间。** 猩红渗出必须缓慢、不匀、有液体流动感——不是LED灯切换，是活物在觉醒 |
+| 25 | WS | 静止/快闪 | 彩色玻璃窗上，一道巨大的狼影掠过——嚎叫姿态，爪子撕裂光影——然后消失 | 无人物动作 | SFX: 极低频的狼嚎（亚声波感） | VFX [P0]: 彩色玻璃窗面巨大狼影快速掠过 | Wide shot of tall stained glass windows in a grand hall, a massive wolf shadow sweeping across the colorful glass surface in a howling pose with claws tearing through light patterns, appearing and vanishing in an instant, multicolored light fragments scattering, supernatural presence flash, dark atmospheric cinematic | 狼影快闪=Ares（内在狼）被唤醒的外在投射。要快——一闪即逝才有冲击力 |
 | 26 | CU | 微推 | Nicholas的脸。呼吸变了——不是急促，是变深了，像胸腔里有东西在膨胀。喉结上下滚动一次 | 呼吸加深，喉结滚动 | Nicholas V.O.（带另一层质感，更低更粗更野）: "Ares, my wolf—" "That's the first time you've ever reacted like that. Do you know her? I've never seen her before…" | 无 | Close-up of a commanding 32-year-old man's face with sharp features, his breathing visibly deepening as chest expands, Adam's apple rolling once in a controlled swallow, a crack appearing in his perfectly composed expression, eyes still tinged with fading crimson at the edges, fighting something rising from within, dramatic side light, internal struggle visible beneath surface control, dark supernatural cinematic | Nicholas的V.O.第一次让观众听到他的内在声音——而那个声音是震动的。控制之王第一次不能控制自己 |
 
 ---
@@ -308,7 +308,7 @@ Shot 34-40: 冷灰到底——离婚炸弹后，整个空间的光都在审判Vi
 | 总shot数 | 40 | 35-55 ✓ |
 | Beat数 | 10 | 6-10 ✓ |
 | 关键帧数 | 9 | 6-10 ✓ |
-| VFX镜头占比 | 7.5% (3/40) | 10-20%（本集VFX集中在Beat 7，偏低但合理——EP01以权力建立为主，超自然元素点到为止） |
+| VFX镜头占比 | 7.5% (3/40) | 10-20%（⚠️ 低于基准——本集VFX集中在Beat 7，属设计偏差：EP01以权力体系建立为主，超自然元素采用"点到为止"策略，为后续集数VFX爆发保留递进空间。如需提升比例，可在Shot 27双人对视段增加红线若隐若现的微VFX，以及Shot 40全景中狼旗微动+狼眼微发光等环境级VFX） |
 | CU+ECU占比 | 52.5% (21/40) | 40-50%（略高，因为本集人物面部微表情是核心卖点） |
 | 每条prompt字数 | 30-60 words | 30-60 words ✓ |
 | 预估时长 | 2.5-3 min | 2-4 min ✓ |
