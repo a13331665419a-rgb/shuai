@@ -592,32 +592,4 @@ Seedance 2.0 更适合短句、断句明确、重音清楚的台词。
 ```
 
 ---
-
-## 建议的 GitHub 用法
-
-可以把这份文档放进仓库的以下路径之一：
-
-```bash
-/docs/seedance2/Seedance2_Prompt_Avoid_List.md
-```
-
-或
-
-```bash
-/prompts/seedance2/forbidden_rules.md
-```
-
-如果你还会继续补全规则库，推荐目录结构如下：
-
-```bash
-seedance2-rules/
-├── README.md
-├── docs/
-│   ├── Seedance2_Prompt_Avoid_List.md
-│   ├── Seedance2_Master_Rules.md
-│   ├── Seedance2_QC_Checklist.md
-│   └── Seedance2_Shot_Template.md
-└── examples/
-    ├── bad_vs_good_examples.md
-    └── episode_prompt_samples.md
-```
+生成！
