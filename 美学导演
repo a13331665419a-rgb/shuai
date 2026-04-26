@@ -1,0 +1,876 @@
+# AI视频竖版电影感相机与美学规则  
+# Cinematic Camera & Visual Style Rules for AI Video Generation
+
+## 1. 核心目标
+
+本规则用于解决 AI 视频生成中常见的“AI感太强、画面太塑料、构图太平、镜头太随机、滤镜不符合剧情”的问题。
+
+生成任何 AI 视频提示词时，必须根据【剧本内容 / 人物状态 / 场景氛围 / 情绪强度 / 类型风格】自动匹配：
+
+- 合适的相机品牌与影像质感
+- 合适的镜头焦距
+- 合适的光圈与景深
+- 合适的滤镜与色彩风格
+- 合适的对比度、颗粒感、锐度
+- 合适的竖版电影构图
+- 合适的光影层次与空间纵深
+- 合适的镜头运动方式
+- 合适的真实影视拍摄逻辑
+
+最终目标是让 AI 视频更像“真实电影镜头 / 北美短剧镜头 / 高级广告片 / 电影级解说漫画面”，而不是默认 AI 生成画面。
+
+---
+
+## 2. 最高优先级原则
+
+### 2.1 剧情优先，不允许乱套滤镜
+
+所有相机、焦距、滤镜、光影、构图选择，都必须服务于剧本情绪。
+
+禁止为了高级而高级。
+
+例如：
+
+- 贫民区压迫戏：不能使用过度梦幻、柔焦、糖水滤镜
+- 豪门宴会戏：不能使用粗糙脏乱的纪录片质感
+- 复仇觉醒戏：不能使用明亮温柔的家庭剧光线
+- 恐怖悬疑戏：不能使用干净商业广告质感
+- 甜宠亲密戏：不能使用强烈冷硬犯罪片光影
+
+每一个视觉参数都必须回答一个问题：
+
+> 这个镜头的美学选择，是否强化了当前剧情的情绪？
+
+---
+
+## 3. 相机品牌匹配规则
+
+生成提示词时，必须根据剧情类型自动选择相机质感。
+
+### 3.1 高级北美短剧 / 豪门 / CEO / 复仇
+
+适合使用：
+
+- ARRI Alexa 35 cinematic look
+- ARRI Alexa Mini LF
+- RED V-Raptor cinematic look
+- Sony Venice 2 premium drama look
+
+视觉关键词：
+
+- premium cinematic texture
+- rich skin tone
+- controlled highlight roll-off
+- deep shadow detail
+- luxury drama visual style
+- high-end vertical short drama look
+
+适用场景：
+
+- 豪门别墅
+- 高级宴会
+- CEO办公室
+- 契约婚姻
+- 复仇归来
+- 权力对峙
+- 情感撕裂
+
+提示词示例：
+
+> Shot on ARRI Alexa 35, premium vertical cinematic drama look, rich skin tone, elegant highlight roll-off, controlled contrast, luxury short drama visual style.
+
+---
+
+### 3.2 贫民区 / 底层压迫 / 家庭苦难 / 现实主义
+
+适合使用：
+
+- Sony FX6 documentary cinematic look
+- Canon C70 naturalistic drama look
+- Blackmagic URSA Mini Pro gritty indie film look
+
+视觉关键词：
+
+- raw realistic texture
+- handheld realism
+- muted color palette
+- natural window light
+- subtle film grain
+- imperfect skin texture
+- grounded social realism
+
+适用场景：
+
+- 破旧公寓
+- 贫民街区
+- 工厂
+- 医院走廊
+- 小镇教堂
+- 家庭争吵
+- 母亲牺牲
+- 底层逆袭
+
+提示词示例：
+
+> Shot on Sony FX6, grounded social realism, muted color palette, handheld documentary feeling, subtle film grain, natural imperfect lighting, raw emotional texture.
+
+---
+
+### 3.3 狼人 / 吸血鬼 / Alpha / 奇幻宿命感
+
+适合使用：
+
+- RED V-Raptor fantasy cinematic look
+- ARRI Alexa 35 dark fantasy look
+- Sony Venice 2 moonlit cinematic look
+
+视觉关键词：
+
+- dark fantasy atmosphere
+- moonlit blue contrast
+- blood-red accent light
+- high contrast shadows
+- mythic vertical composition
+- supernatural cinematic texture
+- gothic romance lighting
+
+适用场景：
+
+- 血月
+- 古堡
+- 森林
+- 悬崖
+- 狼群
+- Alpha王座
+- 命定伴侣
+- 禁忌契约
+
+提示词示例：
+
+> Shot on RED V-Raptor, dark fantasy cinematic look, moonlit blue shadows, blood-red accent highlights, gothic romance atmosphere, mythic vertical composition.
+
+---
+
+### 3.4 犯罪 / 黑帮 / 地下拍卖 / 暴力权力戏
+
+适合使用：
+
+- ARRI Alexa Mini LF crime thriller look
+- RED Komodo gritty crime look
+- Sony Venice 2 noir cinematic look
+
+视觉关键词：
+
+- neo-noir lighting
+- hard shadow
+- low-key contrast
+- tobacco brown and deep red tones
+- sharp directional light
+- dangerous atmosphere
+- oppressive frame composition
+
+适用场景：
+
+- 地下拍卖
+- 黑帮会议
+- 暴雨街头
+- 酒吧
+- 仓库
+- 审讯
+- 权力交易
+- 威胁压迫
+
+提示词示例：
+
+> Shot on ARRI Alexa Mini LF, neo-noir crime thriller look, low-key lighting, hard shadows, tobacco brown and deep red palette, oppressive vertical composition.
+
+---
+
+### 3.5 校园 / 青春 / 初恋 / 轻喜剧
+
+适合使用：
+
+- Canon C300 Mark III soft drama look
+- Sony FX3 clean romantic look
+- ARRI Alexa Mini soft natural look
+
+视觉关键词：
+
+- soft natural daylight
+- clean youthful color
+- gentle contrast
+- warm skin tone
+- airy background
+- shallow depth of field
+- fresh romantic atmosphere
+
+适用场景：
+
+- 校园走廊
+- 操场
+- 图书馆
+- 咖啡店
+- 青春误会
+- 暧昧靠近
+- 初恋心动
+
+提示词示例：
+
+> Shot on Canon C300 Mark III, soft youthful drama look, natural daylight, gentle contrast, warm skin tone, airy romantic atmosphere, clean vertical composition.
+
+---
+
+## 4. 焦距匹配规则
+
+每个镜头必须根据情绪和叙事功能选择焦距，不允许所有镜头都用同一种焦距。
+
+### 4.1 24mm — 空间压迫 / 环境交代 / 强烈透视
+
+适合：
+
+- 展示人物被环境吞没
+- 展示豪宅、教堂、城堡、球场、地下拍卖厅
+- 展示人物在权力空间中的弱小感
+- 展示多人关系和空间站位
+
+效果：
+
+- 空间感强
+- 透视明显
+- 竖版画面更有纵深
+- 适合开场建立世界
+
+提示词：
+
+> 24mm wide-angle lens, strong spatial depth, vertical cinematic composition, character dwarfed by the environment.
+
+---
+
+### 4.2 35mm — 人物与环境平衡 / 主叙事镜头
+
+适合：
+
+- 主要剧情推进
+- 人物行动
+- 对话前半段
+- 情绪还没有完全爆发的镜头
+
+效果：
+
+- 真实自然
+- 既有人物，也有环境
+- 最适合短剧主镜头
+
+提示词：
+
+> 35mm cinematic lens, balanced character and environment, natural perspective, immersive vertical drama framing.
+
+---
+
+### 4.3 50mm — 情绪聚焦 / 人物中近景
+
+适合：
+
+- 角色忍耐
+- 情绪压抑
+- 眼神变化
+- 关系对峙
+- 轻微心动
+- 内心动摇
+
+效果：
+
+- 人物突出
+- 背景适度虚化
+- 观众更容易代入角色
+
+提示词：
+
+> 50mm lens, emotional medium close-up, shallow depth of field, focused facial performance, cinematic vertical framing.
+
+---
+
+### 4.4 85mm — 强烈情绪特写 / 爱恨爆发
+
+适合：
+
+- 流泪
+- 愤怒
+- 震惊
+- 心碎
+- 复仇觉醒
+- 欲望压迫
+- 男女主强张力对视
+
+效果：
+
+- 压缩空间
+- 脸部情绪强
+- 背景虚化明显
+- 适合爆点镜头
+
+提示词：
+
+> 85mm portrait lens, intense emotional close-up, compressed background, creamy bokeh, cinematic facial tension.
+
+---
+
+### 4.5 100mm Macro — 道具 / 细节 / 生理反应
+
+适合：
+
+- 戒指
+- 血迹
+- 合同
+- 伤口
+- 颤抖的手
+- 眼泪
+- 唇部微动
+- 钥匙
+- 钱袋
+- 手机信息
+
+效果：
+
+- 细节有冲击力
+- 适合制造悬念和情绪钩子
+
+提示词：
+
+> 100mm macro lens, extreme detail close-up, tactile texture, shallow focus, cinematic symbolic insert shot.
+
+---
+
+## 5. 光圈与景深规则
+
+### 5.1 f/1.4 - f/2.0
+
+适合：
+
+- 情绪特写
+- 梦幻回忆
+- 亲密关系
+- 孤独感
+- 强主观视角
+
+效果：
+
+- 背景强虚化
+- 情绪集中
+- 画面更高级
+
+提示词：
+
+> f/1.8 aperture, very shallow depth of field, soft cinematic background blur.
+
+---
+
+### 5.2 f/2.8 - f/4
+
+适合：
+
+- 大部分短剧主镜头
+- 对话
+- 行动
+- 人物与环境兼顾
+
+效果：
+
+- 人物清晰
+- 环境有信息
+- 真实影视感较强
+
+提示词：
+
+> f/2.8 aperture, controlled shallow depth of field, clear subject separation.
+
+---
+
+### 5.3 f/5.6 - f/8
+
+适合：
+
+- 大场景
+- 群像
+- 权力空间
+- 战斗
+- 宴会
+- 法庭
+- 教堂
+- 球场
+
+效果：
+
+- 空间清楚
+- 多人关系明确
+- 适合复杂调度
+
+提示词：
+
+> f/5.6 aperture, deep focus, clear spatial relationship, ensemble blocking visible.
+
+---
+
+## 6. 对比度与色彩规则
+
+### 6.1 低对比度
+
+适合：
+
+- 回忆
+- 温柔戏
+- 青春戏
+- 治愈片段
+- 母子安静相处
+
+提示词：
+
+> soft contrast, gentle highlight, warm natural tone, emotionally tender atmosphere.
+
+---
+
+### 6.2 中高对比度
+
+适合：
+
+- 大多数北美短剧
+- 豪门冲突
+- 情绪对峙
+- 复仇铺垫
+
+提示词：
+
+> medium-high contrast, rich cinematic shadows, clean highlight control, premium drama look.
+
+---
+
+### 6.3 高对比度
+
+适合：
+
+- 复仇觉醒
+- 黑帮威胁
+- 狼人权力
+- 审判
+- 背叛揭露
+- 情绪爆点
+
+提示词：
+
+> high contrast lighting, deep shadows, sharp emotional separation, dramatic cinematic intensity.
+
+---
+
+### 6.4 极低饱和
+
+适合：
+
+- 绝望
+- 贫困
+- 医院
+- 失败
+- 被抛弃
+- 冷暴力
+
+提示词：
+
+> desaturated color palette, cold muted tones, drained emotional atmosphere, realistic pain texture.
+
+---
+
+### 6.5 高级饱和控制
+
+适合：
+
+- 豪门
+- 奇幻
+- 宴会
+- 复仇登场
+- 权力展示
+
+提示词：
+
+> controlled rich saturation, elegant cinematic color grading, luxury visual tone, refined contrast.
+
+---
+
+## 7. 滤镜与美学风格匹配规则
+
+### 7.1 现实主义苦难戏
+
+使用：
+
+- muted beige
+- cold gray
+- dusty brown
+- natural skin texture
+- slight film grain
+
+禁止：
+
+- 过度磨皮
+- 过度柔光
+- 梦幻光斑
+- 糖水滤镜
+
+提示词：
+
+> muted beige-gray color grade, slight film grain, natural skin texture, realistic imperfect lighting, grounded emotional realism.
+
+---
+
+### 7.2 豪门权力戏
+
+使用：
+
+- champagne gold
+- deep black
+- cold marble white
+- elegant shadow
+- glossy highlight
+
+提示词：
+
+> luxury champagne-gold and deep-black color grade, polished marble reflections, elegant high-contrast lighting, premium vertical drama aesthetic.
+
+---
+
+### 7.3 黑帮犯罪戏
+
+使用：
+
+- dark amber
+- tobacco brown
+- blood red accent
+- low-key noir
+- hard shadow
+
+提示词：
+
+> dark amber and tobacco-brown color grade, blood-red accent light, low-key noir lighting, hard shadows, dangerous crime atmosphere.
+
+---
+
+### 7.4 狼人奇幻戏
+
+使用：
+
+- moonlit blue
+- silver gray
+- blood red
+- dark forest green
+- gothic shadow
+
+提示词：
+
+> moonlit blue and silver-gray palette, blood-red supernatural accents, gothic fantasy shadows, mythic dark romance atmosphere.
+
+---
+
+### 7.5 青春恋爱戏
+
+使用：
+
+- soft cream
+- pale blue
+- warm sunlight
+- fresh green
+- clean skin tone
+
+提示词：
+
+> soft cream and pale-blue color grade, warm natural sunlight, clean youthful atmosphere, gentle romantic contrast.
+
+---
+
+## 8. 竖版电影构图规则
+
+所有画面必须优先适配 9:16 竖屏短剧，而不是横屏电影直接裁切。
+
+### 8.1 竖屏构图基本原则
+
+每个镜头必须明确：
+
+- 前景
+- 中景
+- 背景
+- 人物站位
+- 视线方向
+- 空间纵深
+- 光源方向
+- 情绪重心
+
+提示词必须包含：
+
+> 9:16 vertical cinematic composition, layered foreground-midground-background depth.
+
+---
+
+### 8.2 人物压迫构图
+
+适合：
+
+- 被羞辱
+- 被审判
+- 被围观
+- 被权力压制
+
+构图方式：
+
+- 人物放在画面下三分之一
+- 上方保留压迫性建筑或人物阴影
+- 周围人形成包围感
+- 主角显得孤立
+
+提示词：
+
+> vertical oppressive composition, protagonist placed in the lower third, surrounding figures towering above, heavy negative space overhead, power imbalance emphasized.
+
+---
+
+### 8.3 权力登场构图
+
+适合：
+
+- Alpha出现
+- CEO登场
+- 黑帮老大入场
+- 女主复仇归来
+- 男主身份揭露
+
+构图方式：
+
+- 低机位仰拍
+- 人物居中
+- 背后有强光或暗门
+- 前景有模糊人群或道具
+- 形成压迫式视觉中心
+
+提示词：
+
+> low-angle vertical hero composition, subject centered with strong backlight, blurred foreground silhouettes, dominant power presence.
+
+---
+
+### 8.4 亲密张力构图
+
+适合：
+
+- 男女主靠近
+- 禁忌关系
+- 命定伴侣感应
+- 暧昧对视
+- 情绪拉扯
+
+构图方式：
+
+- 85mm近景
+- 两人脸部占据画面两侧
+- 中间留极窄负空间
+- 背景虚化
+- 呼吸感明显
+
+提示词：
+
+> intimate vertical two-shot, faces close but separated by narrow negative space, shallow depth of field, visible breathing tension, romantic emotional pressure.
+
+---
+
+### 8.5 群像围观构图
+
+适合：
+
+- 宴会羞辱
+- 学校霸凌
+- 家族审判
+- 地下拍卖
+- 球场观众反应
+
+构图方式：
+
+- 主角在中间或低位
+- 周围人形成半圆或纵深排列
+- 前景可放肩膀、酒杯、手机、桌边等遮挡物
+- 形成“被观看”的压迫感
+
+提示词：
+
+> vertical crowd-pressure composition, protagonist isolated in the center, surrounding people forming a semicircle, foreground obstruction adds voyeuristic tension.
+
+---
+
+## 9. 镜头运动规则
+
+镜头运动必须服务情绪，不能乱飞。
+
+### 9.1 缓慢推进
+
+适合：
+
+- 真相揭露
+- 情绪压迫
+- 角色意识到危险
+- 母亲隐忍
+- 复仇觉醒前
+
+提示词：
+
+> slow cinematic push-in, gradually tightening emotional pressure.
+
+---
+
+### 9.2 手持轻晃
+
+适合：
+
+- 贫困现实
+- 争吵
+- 街头奔跑
+- 医院混乱
+- 暴雨危机
+
+提示词：
+
+> subtle handheld camera movement, realistic instability, raw emotional immediacy.
+
+---
+
+### 9.3 快速推近
+
+适合：
+
+- 血月变红
+- 身份觉醒
+- 爆点反转
+- 突然发现
+- 危险逼近
+
+提示词：
+
+> sudden rapid push-in, shock reveal energy, intense visual impact.
+
+---
+
+### 9.4 环绕运镜
+
+适合：
+
+- 命运绑定
+- 魔法觉醒
+- Alpha感应
+- 权力包围
+- 角色精神崩溃
+
+提示词：
+
+> slow circular tracking shot, fate-like tension, emotional disorientation.
+
+---
+
+### 9.5 静止镜头
+
+适合：
+
+- 羞辱
+- 绝望
+- 道德审判
+- 冷暴力
+- 角色崩溃后空白
+
+提示词：
+
+> locked-off static frame, uncomfortable stillness, emotional suffocation.
+
+---
+
+## 10. 去AI感规则
+
+为了降低 AI 视频的塑料感，提示词必须加入真实影视质感约束。
+
+### 10.1 必须加入真实材质
+
+根据场景加入：
+
+- real skin texture
+- fabric wrinkles
+- sweat
+- dust
+- scratches
+- uneven lighting
+- imperfect background details
+- subtle film grain
+- natural motion blur
+
+通用提示词：
+
+> realistic skin texture, natural fabric wrinkles, subtle film grain, imperfect lighting, natural motion blur, grounded cinematic realism.
+
+---
+
+### 10.2 禁止默认AI光滑感
+
+负面约束：
+
+> avoid plastic skin, avoid over-smoothed faces, avoid glossy AI texture, avoid perfect symmetrical lighting, avoid fake studio look, avoid unnatural motion, avoid floating camera movement, avoid over-saturated colors.
+
+---
+
+### 10.3 人物不能干站着
+
+每个镜头的人物必须有符合剧情的微动作，包括：
+
+- 眼神变化
+- 呼吸
+- 手部动作
+- 肩膀紧绷
+- 嘴唇轻颤
+- 后退半步
+- 握紧道具
+- 避开视线
+- 身体僵住
+- 克制愤怒
+
+提示词必须根据剧情加入：
+
+> subtle facial micro-expression, visible breathing, emotionally motivated body tension, natural human movement.
+
+---
+
+## 11. 输出格式规则
+
+每个镜头的 Seedance / Kling / VEO 视频提示词中，必须包含以下信息：
+
+1. 剧情任务  
+2. 人物状态  
+3. 场景氛围  
+4. 周围人反应  
+5. 相机品牌质感  
+6. 焦距  
+7. 光圈 / 景深  
+8. 构图方式  
+9. 运镜方式  
+10. 光影风格  
+11. 滤镜 / 色彩  
+12. 对比度  
+13. 去AI感真实细节  
+14. 负面约束  
+
+---
+
+## 12. 单镜头提示词结构模板
+
+每个镜头最终必须整合为一段完整提示词，不要拆成碎片。
+
+### 中文结构
+
+```text
+【镜头任务】根据剧本表现[当前剧情事件/情绪点]。
+【人物表演】[角色名]处于[情绪状态]，动作是[具体动作]，表情包含[眼神/呼吸/微表情/身体反应]。
+【周围人反应】周围人物根据剧情表现[围观/嘲笑/沉默/震惊/恐惧/压迫]，站位形成[包围/对峙/疏离/权力差]。
+【场景氛围】场景为[具体场景]，环境呈现[空间层次/道具/光源/天气/材质]。
+【相机与镜头】Shot on [相机品牌/型号质感]，[焦距] lens，[光圈] aperture，[景深描述]。
+【竖版构图】9:16 vertical cinematic composition，[前景-中景-背景层次]，[人物站位]，[视觉重心]。
+【运镜设计】[slow push-in / handheld / locked-off / tracking / circular shot]，服务于[情绪目的]。
+【光影与滤镜】[光影类型]，[色彩风格]，[对比度]，[颗粒感/锐度/肤色/高光控制]。
+【真实质感】realistic skin texture, natural fabric wrinkles, subtle film grain, imperfect lighting, natural motion blur。
+【负面约束】avoid plastic skin, avoid glossy AI texture, avoid over-smoothed faces, avoid unnatural motion, avoid fake studio lighting, avoid over-saturated colors。
